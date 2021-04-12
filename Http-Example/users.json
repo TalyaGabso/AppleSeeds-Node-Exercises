@@ -1,0 +1,53 @@
+{
+  "users": [
+    [
+      {
+        "id": 1,
+        "name": "Gilad",
+        "capsule":1
+      },
+      {
+        "id": 2,
+        "name": "Guy",
+        "capsule":1
+      },
+      {
+        "id": 3,
+        "name": "Michael",
+        "capsule":1
+      },
+      {
+        "id": 4,
+        "name": "Shir",
+        "capsule":1
+      },
+      {
+        "id": 5,
+        "name": "Talya",
+        "capsule":1
+      },
+      {
+        "id": 6,
+        "name": "Osama",
+        "capsule":1
+      }
+    ],
+    [
+      {
+        "id": 7,
+        "name": "Rachel",
+        "capsule":2
+      },
+      {
+        "id": 8,
+        "name": "Or",
+        "capsule":2
+      },
+      {
+        "id": 9,
+        "name": "Shlomi",
+        "capsule":2
+      }
+    ]
+  ]
+}
