@@ -1,0 +1,16 @@
+{
+  "rooms": [
+    {
+      "roomNumber": 1,
+      "maxCapacity": 3,
+      "currentCapacity": [],
+      "isActive": true
+    },
+    {
+      "roomNumber": 2,
+      "maxCapacity": 3,
+      "currentCapacity": [],
+      "isActive": false
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 const express = require("express");
 const router = express.Router();
 const fs = require("fs");
-let employeesJSON = require("../employees.json");
+
+let employeesJSON = require("../config/employees.json");
 
 // show
 router
