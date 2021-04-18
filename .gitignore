@@ -4,3 +4,9 @@
 employeesServer-Exercise/node_modules
 Http-Example/node_modules
 Http-Router-Example/node_modules
+#11.1-express_with_react 
+# react gitignore
+11.1-express_with_react/bank-app/node_modules
+11.1-express_with_react/bank-app/README.md
+# nodejs gitignore
+11.1-express_with_react/bank-api/node_modules
