@@ -361,10 +361,15 @@ MongoClient.connect(
 		// 	}
 		// 	console.log(result);
 		// });
-	
-    // 3.3 - Write a MongoDb query to get restaurants that include reviews from a specific date.
+
+		// 3.3 - Write a MongoDb query to get restaurants that include reviews from a specific date.
 		db.collection("restaurants")
-			.find({})
+			.find({
+				"reviews.date": {
+					$gte: new Date("2020-01-01"),
+					$lt: new Date("2020-01-02"),
+				},
+			})
 			.toArray((error, result) => {
 				if (error) {
 					return console.log("Unable to get data");
