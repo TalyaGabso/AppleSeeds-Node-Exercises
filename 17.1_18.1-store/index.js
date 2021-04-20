@@ -2,8 +2,9 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
+
 const app = express();
-// const productsRouter = require("./routes/products.route");
+const productsRouter = require("./routes/product.route");
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -12,7 +13,7 @@ app.use("/api/products", productsRouter);
 
 //connect to db with mongoose
 mongoose
-	.connect("mongodb://127.0.0.1:27017", {
+	.connect("mongodb://127.0.0.1:27017/store-api", {
 		useNewUrlParser: true,
 		useUnifiedTopology: true,
 		useFindAndModify: false,
